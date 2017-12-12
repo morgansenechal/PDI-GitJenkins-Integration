@@ -437,7 +437,7 @@
   </notepads>
   <order>
     <hop>
-      <from>rename2</from>
+      <from>rename</from>
       <to>Dummy (do nothing)</to>
       <enabled>Y</enabled>
     </hop>
@@ -472,7 +472,7 @@
     </GUI>
   </step>
   <step>
-    <name>rename2</name>
+    <name>rename</name>
     <type>RowGenerator</type>
     <description/>
     <distribute>Y</distribute>
@@ -547,7 +547,7 @@
     <group>
       <name>explorerState</name>
       <attribute>
-        <key>rename2</key>
+        <key>rename</key>
         <value/>
       </attribute>
     </group>
