@@ -441,11 +441,6 @@
       <to>Dummy (do nothing)</to>
       <enabled>Y</enabled>
     </hop>
-    <hop>
-      <from>Dummy (do nothing)</from>
-      <to>Dummy (do nothing) 2</to>
-      <enabled>Y</enabled>
-    </hop>
   </order>
   <step>
     <name>Dummy (do nothing)</name>
@@ -467,7 +462,7 @@
     </remotesteps>
     <GUI>
       <xloc>416</xloc>
-      <yloc>288</yloc>
+      <yloc>160</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -511,30 +506,6 @@
     <GUI>
       <xloc>160</xloc>
       <yloc>160</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Dummy (do nothing) 2</name>
-    <type>Dummy</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>416</xloc>
-      <yloc>128</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
