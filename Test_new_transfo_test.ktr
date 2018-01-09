@@ -437,7 +437,7 @@
   </notepads>
   <order>
     <hop>
-      <from>generate_ 1 row</from>
+      <from>generate_ 5 row</from>
       <to>Dummy (do nothing)</to>
       <enabled>Y</enabled>
     </hop>
@@ -467,7 +467,7 @@
     </GUI>
   </step>
   <step>
-    <name>generate_ 1 row</name>
+    <name>generate_ 5 row</name>
     <type>RowGenerator</type>
     <description/>
     <distribute>Y</distribute>
@@ -491,7 +491,7 @@
         <set_empty_string>N</set_empty_string>
       </field>
     </fields>
-    <limit>1</limit>
+    <limit>5</limit>
     <never_ending>N</never_ending>
     <interval_in_ms>5000</interval_in_ms>
     <row_time_field>now</row_time_field>
@@ -517,6 +517,10 @@
   <attributes>
     <group>
       <name>explorerState</name>
+      <attribute>
+        <key>generate_ 5 row</key>
+        <value/>
+      </attribute>
     </group>
   </attributes>
 </transformation>
