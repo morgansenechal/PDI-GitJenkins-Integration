@@ -437,7 +437,7 @@
   </notepads>
   <order>
     <hop>
-      <from>to_be_renamed</from>
+      <from>generate_ 1 row</from>
       <to>Dummy (do nothing)</to>
       <enabled>Y</enabled>
     </hop>
@@ -467,7 +467,7 @@
     </GUI>
   </step>
   <step>
-    <name>to_be_renamed</name>
+    <name>generate_ 1 row</name>
     <type>RowGenerator</type>
     <description/>
     <distribute>Y</distribute>
@@ -491,7 +491,7 @@
         <set_empty_string>N</set_empty_string>
       </field>
     </fields>
-    <limit>10</limit>
+    <limit>1</limit>
     <never_ending>N</never_ending>
     <interval_in_ms>5000</interval_in_ms>
     <row_time_field>now</row_time_field>
@@ -517,10 +517,6 @@
   <attributes>
     <group>
       <name>explorerState</name>
-      <attribute>
-        <key>to_be_renamed</key>
-        <value/>
-      </attribute>
     </group>
   </attributes>
 </transformation>
