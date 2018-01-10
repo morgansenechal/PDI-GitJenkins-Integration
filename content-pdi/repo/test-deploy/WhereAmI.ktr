@@ -437,13 +437,13 @@
   </notepads>
   <order>
     <hop>
-      <from>Get Variables</from>
+      <from>GetVar</from>
       <to>Write to log</to>
       <enabled>Y</enabled>
     </hop>
   </order>
   <step>
-    <name>Get Variables</name>
+    <name>GetVar</name>
     <type>GetVariable</type>
     <description/>
     <distribute>Y</distribute>
@@ -552,6 +552,10 @@
   <attributes>
     <group>
       <name>explorerState</name>
+      <attribute>
+        <key>GetVar</key>
+        <value/>
+      </attribute>
     </group>
   </attributes>
 </transformation>
